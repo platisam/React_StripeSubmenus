@@ -1,5 +1,11 @@
+import React from "react";
+
 function App() {
-  return <h2> Stripe App</h2>;
+  return (
+    <>
+      <h2> Stripe App</h2>;
+    </>
+  );
 }
 
 export default App;
