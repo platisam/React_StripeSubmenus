@@ -1,9 +1,16 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
+import Hero from "./Hero";
+import Submenu from "./Submenu";
 
 function App() {
   return (
     <>
-      <h2> Stripe App</h2>;
+      <Navbar />
+      <Sidebar />
+      <Hero />
+      <Submenu />
     </>
   );
 }
